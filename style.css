@@ -1,0 +1,51 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #f0f0f0; /* background */
+}
+
+.gif-container img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px; /* Add space above buttons */
+}
+
+.response-buttons button {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    color: white; 
+    transition: background-color 0.3s, transform 0.3s; /* Smooth transition */
+}
+
+#yes-btn {
+    background-color: #4CAF50; 
+}
+
+#yes-btn:hover {
+    background-color: #00ff0d; 
+}
+
+#no-btn {
+    background-color: #f44336; 
+}
+
+#no-btn:hover {
+    background-color: #9f1a15; 
+}
+.replacement {
+    text-align: center; 
+    margin-top: 20px; 
+}
+
+#love-text {
+    font-size: 24px; 
+    color: #333; 
+    margin-bottom: 20px; 
+}
